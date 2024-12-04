@@ -16,10 +16,17 @@
 ## Use at your own risk.  Script intended for providing guidance only.
 ##
 ## Test Models: Intuos 4, Intuos Pro Medium, Intuos Pro Large, Intuos5 Touch Medium
-## Test OS: Autodesk CentOS 7.2 ISO 1511 Rev 003 using ks.cfg
+## PTH-660
+##
+## Test OS: Autodesk CentOS 7.2, Rocky 9.3
 ##
 ## IMPORTANT:  If using script remotely via ssh, be sure to export the DISPLAY
 ## ex: export DISPLAY=:0
+##
+## Note: For Rocky 8+ it is recommended to use the Wacom tab in the Device Settings
+## in the OS, if available.  A few Gnome instances lacked this option. In these
+## instances, this script should be used.  However. if the option is available,
+## it is advised to use the built in OS functionality to disable touch and gestures,
 ##
 ##########################################################################
 
